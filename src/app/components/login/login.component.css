@@ -1,0 +1,60 @@
+
+body{
+  margin: 0px !important;
+}
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form {
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  border-radius: 12px;
+ 
+}
+.form-control {
+ border: none;
+ border-bottom: 1px solid gray;
+ border-radius: 0;
+ padding-left: 20px;
+}
+.copyright {
+  color: blue;
+  text-align: center;
+  margin-top: 30px;
+}
+.btn-custom{
+  background-color: #00b140;
+  color: white;
+  border-radius: 10px;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 10px;
+}
+.btn-custom :focus ,.btn-custom:hover{
+  background-color: #e6e6e6;
+  color: black;
+  
+}
+.btn-group-custom{
+  margin-top:30px;
+  text-align: center;
+ 
+}
+.btn-link{
+ text-decoration: underline;
+ cursor: pointer;
+ padding-top: 20px;
+}
+
+.icon-placeholder{
+  opacity: 0.5;
+  position: absolute;
+  top: 7px;
+  color: #0033A0;;
+}
+.form-group-custom{
+  position: relative;
+}

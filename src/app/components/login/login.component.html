@@ -1,0 +1,19 @@
+<div class="row justify-content-md-center">
+ <form [formGroup]="form" class="col-sm-4 login-form" (ngSubmit)="onSubmit()" autocomplete="off" [class.ng-submitted]="submitted">
+   <div class="form-group text-center">
+     <h4>SIGN IN</h4>
+   </div>
+   <div class="form-group form-group-custom">
+     <input class="form-control" formControlName="userName" id="userName" placeholder="Username" type="text">
+     <div class="invalid-feedback" *ngIf="hasError('userName','required')">Please type your username.</div>
+    </div>
+   <div class="form-group form-group-custom">
+     <input class="form-control" formControlName="password" id="password" placeholder="Password" type="password">
+     <div class="invalid-feedback" *ngIf="hasError('password','required')">Please type your password.</div>
+   </div>
+   <div class="form-group btn-group-custom">
+     <button class="btn btn-block btn-custom" type="submit">Login</button>
+     <a class="btn btn-link text-center" routerLink="/auth/forgot-password">Forgot Password?</a>
+   </div>
+ </form>
+</div>

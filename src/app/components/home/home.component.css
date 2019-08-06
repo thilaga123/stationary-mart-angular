@@ -1,0 +1,11 @@
+.productImage{
+ width:200px;
+ height:200px;
+ align-self: center;
+}
+
+.productlink{
+ border: 1px solid gray;
+ text-align: center;
+ cursor: pointer;
+}

@@ -1,0 +1,15 @@
+<h2>Stationary Items</h2>
+ <div class="product_container row">
+  <div class="col-xs-12 col-sm-6 col-md-3" *ngFor = "let product of products">
+   <div class="productlink" (click)="viewProduct(product)"> 
+     <img [src]='getSantizeUrl(product.imageUrl)' class="productImage">
+     <p class="text-center">{{product.productName}}</p>
+   </div>
+  </div>
+ </div>
+
+
+
+
+
+
